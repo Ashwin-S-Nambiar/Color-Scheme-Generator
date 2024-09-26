@@ -1,19 +1,19 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Inter;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: Inter;
+    padding: 1em;
+}
+
+
 h1 {
+    margin-top: 1em;
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: -7rem;
+    font-size: 4rem;
 }
 
 main {
@@ -29,7 +29,6 @@ main {
   height: 700px;
   display: flex;
   flex-direction: column;
-  margin: 2.5rem 0 auto;
 }
 
 .select-color {
@@ -109,40 +108,5 @@ main {
     margin-left: 5rem;
     padding: 5px;
     width: 100%;
-}
-
-@media (max-width:768px) {
-    main {
-        width: 450px;
-    }
-    .container {
-        width: 350px;
-        margin-left: -3rem;
-    }
-    
-    .select-color{
-        width: 400px;
-        margin-left: 72px;
-    }
-    
-    .select-color input {
-        width: 3.8rem;
-        height: 2.625rem;
-        border-color: #D1D5DB;
-    }
-    .select-color button {
-        padding: .39rem;
-        font-size: 0.85rem;
-    }
-    .color-grid {
-        width: 100px;
-        margin: 0;
-    }
-    .color {
-        margin-right: -12.5rem;
-    }
-    .color-name {
-        margin-right: -14.25rem;
-    }
 }
 
