@@ -17,16 +17,16 @@ h1 {
 }
 
 main {
-    display: block;
-    margin: 0 auto;
-    width: 700px;
-    height: 250px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
     border-radius: .3rem;
 }
 
 .container {
-  width: 500px;
-  height: 700px;
+  width: 600px;
+  height: 500px;  
   display: flex;
   flex-direction: column;
 }
